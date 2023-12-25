@@ -1,0 +1,16 @@
+{
+    "name": "rosnicka/advent-of-code-2023",
+    "autoload": {
+        "psr-4": {
+            "Rosnicka\\AdventOfCode2023\\": "src/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.28"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
